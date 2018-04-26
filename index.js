@@ -22,8 +22,17 @@ function dec(n) {
   return(n);
 }
 function makeInt(n) {
+<<<<<<< HEAD
   return parseInt(n, 10);
 }
 function preserveDecimal(n) {
   return parseFloat(n);
+=======
+  parseInt('n', 10);
+  return("n");
+}
+function preserveDecimal(n) {
+  parseFloat(n);
+  return(n);
+>>>>>>> cf10751dd66aa0bac83c6892c38a5084daa8a3ae
 }
